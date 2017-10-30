@@ -1,2 +1,9 @@
 * personal-utils
 personal emacs utils
+** Usage
+Clone this repository into e.g. _~/.emacs.d/private/local/personal-utils_, then:
+#+BEGIN_SRC emacs-lisp
+  (use-package personal-utils
+    :load-path "private/local/personal-utils"
+    :init (require 'personal-utils-autoloads))
+#+END_SRC
