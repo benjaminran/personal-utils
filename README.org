@@ -1,2 +1,2 @@
-* pu.el
+* personal-utils
 personal emacs utils
