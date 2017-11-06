@@ -1,4 +1,6 @@
 ;;; personal-utils.el --- personal emacs utils -*- lexical-binding: t -*-
+;; Version: 1.0
+;; Package-requires (cl-lib)
 ;;; Commentary:
 ;;; Code:
 
@@ -8,8 +10,5 @@
   (interactive)
   (insert (format-time-string "%Y-%m-%d")))
 
-;; Local Variables:
-;; projectile-project-root: ~/.emacs.d/private/local/personal-utils/
-;; End:
 (provide 'personal-utils)
 ;;; personal-utils.el ends here
